@@ -10,7 +10,7 @@ class Program
 {
     static async Task Main(string[] args)
     {
-        var client = new ABXClient("192.168.1.8", 3000);
+        var client = new ABXClient("xxxx", 3000);
         await client.StartAsync();
     }
 }
